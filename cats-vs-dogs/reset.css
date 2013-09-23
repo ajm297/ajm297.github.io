@@ -73,4 +73,5 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+h1 {color:red;}
 
