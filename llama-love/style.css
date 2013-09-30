@@ -52,5 +52,30 @@ table {
 
 
 /* END RESET */
+h1 {font-size:30px;
+	font-family:helvetica;
+	margin:10px 5px;
+	font-weight:bold;
+
+
+	}
+img {width:200px;
+height:auto;
+float:left;
+padding:10px;}
+
+
+article {float:left;
+width:500px;
+margin:5px;}
+
+h2 {color:grey;
+font-size:12px;
+font-family:helvetica;}
+
+p {font-size:15px;
+width:475px;
+margin:10px;
+font-family:helvetica;}
 
 
