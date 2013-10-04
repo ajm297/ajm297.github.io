@@ -84,4 +84,24 @@ h1 {color:red;}
 }
 </style>
 <header id='site-header'>
-<h1><img src="images/dogvscat-logo.gif" alt="Logo">
+<h1><img src="images/dogvscat-logo.gif" alt="Logo"></h1>
+</header>
+
+head{float:left;}
+
+ul {float:left;
+	width:200px;
+	font-family:helvetica;
+	font-size:25px
+
+
+img 
+	{width:200px;
+	height:auto;
+	float:left;
+	padding:10px;}
+
+h2 {color:grey;
+	font-size:12px;
+	font-family:helvetica;}
+
