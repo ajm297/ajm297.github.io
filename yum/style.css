@@ -53,6 +53,50 @@ table {
 
 /* END RESET */
 
-h1 {color:purple;}
+h1 {font-weight:bold;
+font-family:knockout;
+font-size:70px;
+float:right;
+padding:10px 20px 2px 10px;
+width:300px;
+text-align:right;
+position:top;}
+
+
+ul{font-family:knockout;
+font-size:15px;
+float:right;
+text-align:left;
+margin-top: 140px;
+padding:10px 10px 20px 10px;
+width:200px;
+color:grey;
+clear:left;
+margin-left:100px; 
+}
+
+section{float:right;
+font-family:knockout;
+width:450px;
+color:grey;
+margin-right:30px; }
+
+h2{font-family:knockout;
+font-weight:bold;
+font-size:40px;
+text-align:left;
+padding-right:300px;
+color:grey;}
+
+a{position:bottom;
+width:450px;
+padding-top:300px;
+height:auto;
+margin-top:400px;
+padding:300px 50px 50px 50px;
+font-family:knockout;
+color:black;
+opacity:50px;
+text-decoration:none;}
 
 
