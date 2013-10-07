@@ -88,10 +88,10 @@ padding-left:200px;}
 nav {font-family:bodoni;
     margin:10px 10px 10px 10px;
     padding:7px 20px 7px 7px;
-       width:2000px;
-border-top:5px solid black;
-border-bottom:5px solid black;
-float:left;}
+    width:2000px;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+    float:left;}
  
 
  li{float:left;
@@ -104,11 +104,10 @@ float:left;}
 
 section 
 {width:100px;
-
 float:left;
 padding:100px;
-postion:left;
-margin:20px;}
+margin:20px;
+position:left;}
 
 
 
