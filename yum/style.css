@@ -88,12 +88,10 @@ text-align:left;
 padding-right:300px;
 color:grey;}
 
-a{position:left;
+a{clear:both;
+	
 width:450px;
 padding-top:300px;
-height:auto;
-margin-top:400px;
-padding:300px 50px 50px 50px;
 font-family:knockout;
 color:black;
 opacity:50px;
