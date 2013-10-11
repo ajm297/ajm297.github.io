@@ -82,23 +82,24 @@ h1 {color:red;}
 	background:url(images/dogvscat-logo.gif) no-repeat top left;
 	text-indent:-9999px;}
 
-header {padding-top:20px;
+header {
+	padding-top:20px;
 padding-left:200px;
 margin:0 auto;
-width:960px;}
+width:1500px;}
 
-nav {font-family:bodoni;
-    margin:10px 10px 10px 10px;
+nav {clear:both;
+	font-family:bodoni;
     padding:7px 20px 7px 7px;
-   
     border-top:5px solid black;
     border-bottom:5px solid black;
     float:left;
 	margin:0 auto;
-	width:960px;}
+	width:1500px;}
  
 
- li{float:left;
+ li{clear:right;
+ 	float:left;
  	padding:20px;
  	text-decoration:none;
  	color:black;} 
@@ -109,8 +110,9 @@ nav {font-family:bodoni;
 section 
 {width:100px;
 float:left;
-padding:100px;
+padding:10px 100px 100px 100px;
 margin:20px;
+height:400px;
 position:left;}
 
 
@@ -129,9 +131,17 @@ width:400px;}
 
 footer {clear:both;
 	font-family:bodoni;
-font-size:10px;
-
+	width:1500px;
+	font-size:5px;
 border-top:2px solid black;}
+
+#left-nav {float:left;
+width:200px;}
+
+#right-nav{float:right;
+width:500px;}
+
+#red1{color:red;}
 
 
 
