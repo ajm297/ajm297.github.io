@@ -52,10 +52,14 @@ table {
 	border-spacing: 0;
 }
 
+.header h1{ }
+
+
 #site-header {
 	position:relative;
 	height:120px;
 	background-color:#d4e0a3;
+	text-decoration:none;
 	
 }
 
@@ -66,13 +70,17 @@ table {
 	height:100px;
 	background-color:white;
 	left:15px;
+	text-decoration:none;
 }
 #top-nav { 
 	position:absolute;
 	right:15px;
 	width:150px;
 	height:20px;
-	background-color:white;
+	background-color:#d4e0a3;
+	font-family:helvetica;
+	font-size:12px;
+	text-decoration:none;
 }
 
 	
@@ -81,13 +89,16 @@ table {
 	position:relative;
 	height:55px;
 	background-color:#4f3a11;
+	text-decoration:none;
+	font-color:white;
 }	
 #main-menu li{
 	float:left;
 	display:block;
 	padding:10px;
 	margin:10px 0px 5px 15px;
-	background-color:white;
+	background-color:#4f3a11;
+	
 }	
 
 
@@ -98,6 +109,8 @@ table {
 	margin:20px 15px;
 	padding:10px;
 }	
+
+#page h1{font-size:40px;}
 
 #sidebar {
 	float:right;
