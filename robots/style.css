@@ -32,7 +32,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1
+	width:960px;
+	margin:0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -50,3 +52,71 @@ table {
 	border-spacing: 0;
 }
 
+#site-header {
+	position:relative;
+	height:120px;
+	background-color:#d4e0a3;
+	
+}
+
+#site-header h1 {
+	position:absolute;
+	display:block;
+	width:250px;
+	height:100px;
+	background-color:white;
+	left:15px;
+}
+#top-nav { 
+	position:absolute;
+	right:15px;
+	width:150px;
+	height:20px;
+	background-color:white;
+}
+
+	
+
+#main-menu {
+	position:relative;
+	height:55px;
+	background-color:#4f3a11;
+}	
+#main-menu li{
+	float:left;
+	display:block;
+	padding:10px;
+	margin:10px 0px 5px 15px;
+	background-color:white;
+}	
+
+
+#page { 
+	float:left; 
+	width:60%;
+	background-color:#fffac2;
+	margin:20px 15px;
+	padding:10px;
+}	
+
+#sidebar {
+	float:right;
+	width:30%;
+	margin-top:20px;
+	padding:10px;
+	background-color:#fffac2;
+}	
+
+#site-footer {
+	clear:both;
+	position:relative;
+	height:55px;
+	background-color:#4f3a11;
+}
+
+#footer-content h1 {
+	background-color:white;
+	float:left;
+	width:20%;
+	margin:15px 15px;
+}
