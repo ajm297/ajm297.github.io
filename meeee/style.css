@@ -48,9 +48,34 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; }
-section#content { margin:0 auto; width:960px; padding:20px 0px; }
 
-h1 { font-size:48px; font-weight:bold; color:black; text-align:center; }
+img src= {
+ display:block;  
+ width:40px; 
+ height:40px;  
+ background:url(me123.png) no-repeat top left; 
+ text-indent:-9999px;
+ }
+
+
+
+body { font-family:Knockout; font-size:20px; width:960px; }
+section#content { margin:0 auto; width:960px; padding:20px 100px; }
+
+h1 { font-size:60px; font-weight:bold; color:black; text-align:center; }
 h2 { font-size:36px; font-weight:bold; color:black; text-align:center; }
-p { padding-bottom:10px; }
+p { padding:10px; text-align:center; }
+
+a {text-decoration:none;
+color:grey;
+background-color:black;
+padding:10px;
+margin:20px;
+}
+
+
+
+
+
+
+
