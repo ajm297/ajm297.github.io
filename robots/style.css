@@ -52,12 +52,32 @@ table {
 	border-spacing: 0;
 }
 
-.header h1{ }
+/*-------------------START BELOW------------------------*/
 
+
+#site-header h1 a {
+ display:block;  
+ width:306px; 
+ height:123px;  
+ background:url(images/logo.png) no-repeat top left; 
+ text-indent:-9999px;
+ }
+
+
+body {font-family:helvetica;
+width:960px; }
+
+li a {color:white;
+font-family:helvetica;
+text-decoration:none;
+text-transform:uppercase;}
+
+#top-nav a {text-decoration:none;
+color:#4f3a11;}
 
 #site-header {
 	position:relative;
-	height:120px;
+	height:130px;
 	background-color:#d4e0a3;
 	text-decoration:none;
 	
@@ -66,9 +86,9 @@ table {
 #site-header h1 {
 	position:absolute;
 	display:block;
-	width:250px;
-	height:100px;
-	background-color:white;
+	width:306px;
+	height:123px;
+	background-color:#d4e0a3;
 	left:15px;
 	text-decoration:none;
 }
@@ -99,13 +119,19 @@ table {
 	margin:10px 0px 5px 15px;
 	background-color:#4f3a11;
 	
-}	
+}
 
+article h1 {font-size:27px;
+color:#4f3a11;}	
 
+article h2 {font-size:22px;
+color:#4f3a11;}
+
+article p {font-size:15px;}
 #page { 
 	float:left; 
 	width:60%;
-	background-color:#fffac2;
+	
 	margin:20px 15px;
 	padding:10px;
 }	
@@ -125,10 +151,11 @@ table {
 	position:relative;
 	height:55px;
 	background-color:#4f3a11;
+	font-color:white;
 }
 
-#footer-content h1 {
-	background-color:white;
+#footer-contact h1 {
+	
 	float:left;
 	width:20%;
 	margin:15px 15px;
