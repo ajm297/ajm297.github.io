@@ -118,7 +118,7 @@ section
 {width:100px;
 float:left;
 padding:10px 100px 100px 100px;
-margin:20px;
+margin:40px;
 height:400px;
 position:left;}
 
@@ -143,15 +143,21 @@ border-top:2px solid black;}
 .left-nav {float:left;
 width:300px;
 font-family:bodoni;
+font-size:12px;
 }
 
 .right-nav{float:right;
-width:375px;
-font-family:bodoni;}
+width:300px;
+font-family:bodoni;
+font-size:12px;}
 
 
 ul .red1{color:red;
-font-family:bodoni;}
+font-family:bodoni;
+font-size: 12px}
+
+img{ width:310px;
+height:300px;}
 
 
 
