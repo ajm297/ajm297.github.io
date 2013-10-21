@@ -53,6 +53,11 @@ table {
 
 /* END RESET */
 
+body{align:center
+	margin:0 auto;
+width:960px;
+} 
+
 h1 {font-weight:bold;
 font-family:knockout;
 font-size:70px;
@@ -88,13 +93,18 @@ text-align:left;
 padding-right:300px;
 color:grey;}
 
-a{clear:both;
+body a{clear:both;
+	position:relative;
+	height:100px;
+	left:20px;
+
 	
-width:450px;
+width:20px;
 padding-top:300px;
 font-family:knockout;
 color:black;
 opacity:50px;
 text-decoration:none;}
+
 
 
