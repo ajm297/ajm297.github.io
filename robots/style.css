@@ -65,7 +65,7 @@ table {
 
 
 body {font-family:helvetica;
-width:960px; }
+width:1000px; }
 
 li a {color:white;
 font-family:helvetica;
@@ -73,7 +73,8 @@ text-decoration:none;
 text-transform:uppercase;}
 
 #top-nav a {text-decoration:none;
-color:#4f3a11;}
+color:#4f3a11;
+padding:10px -5px 15px 5px;}
 
 #site-header {
 	position:relative;
@@ -122,12 +123,16 @@ color:#4f3a11;}
 }
 
 article h1 {font-size:27px;
-color:#4f3a11;}	
+color:#4f3a11;
+}	
 
 article h2 {font-size:22px;
-color:#4f3a11;}
+color:#4f3a11;
+padding:10px 0px 10px 0px;
+font-weight:bold;  }
 
 article p {font-size:15px;}
+
 #page { 
 	float:left; 
 	width:60%;
@@ -136,15 +141,27 @@ article p {font-size:15px;}
 	padding:10px;
 }	
 
-#page h1{font-size:40px;}
+#page h1{font-size:40px;
+}
 
 #sidebar {
 	float:right;
 	width:30%;
 	margin-top:20px;
 	padding:10px;
-	background-color:#fffac2;
-}	
+	
+}
+
+#sidebar h1 {font-size:20px;
+text-transform:uppercase;
+font-weight:bold;
+padding:0px 0px 10px 0px;}
+
+#sidebar a {color:#4f3a11;
+text-transform:lowercase; 
+ }
+
+#sidebar li {padding:0px 0px 8px 0px;}
 
 #site-footer {
 	clear:both;
@@ -152,11 +169,31 @@ article p {font-size:15px;}
 	height:55px;
 	background-color:#4f3a11;
 	font-color:white;
+	padding:20px 10px 200px 10px;
 }
 
 #footer-contact h1 {
-	
-	float:left;
+	background-color:#4f3a11;
+	color:tan;
+	position:relative;
 	width:20%;
-	margin:15px 15px;
+	padding:20px;
+	text-transform:uppercase;
 }
+
+#footer-contact p {position:absolute;
+width:200px;
+color:white;
+padding:20px;}
+
+#footer-follow h1 {float:right;
+color:tan;
+text-transform:uppercase;
+width:20%;
+padding:0px 10px 20px 10px;
+}
+
+#footer-follow li {float:right;
+}
+
+
