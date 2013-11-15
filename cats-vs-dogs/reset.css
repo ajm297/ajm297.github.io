@@ -82,12 +82,7 @@ text-align:center;}
 
 
 #site-header h1 a {
-	display:block;
-	width:445px;
-	height:110px;
-	background:url(images/dogvscat-logo.gif) no-repeat top left;
-	text-indent:-9999px;
-margin:;}
+font-family:league gothic-regular;}
 
 header {
 text-align:center;
