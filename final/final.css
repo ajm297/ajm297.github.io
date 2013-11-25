@@ -54,7 +54,8 @@ table {
 
 /*-------------------START BELOW------------------------*/
 body {margin:0 auto;
-width:960px;
+width:100%;
+
 }
 
 #site-header h1 a {

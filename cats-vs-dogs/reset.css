@@ -103,12 +103,13 @@ display:inline-block;
 border-top:2px solid gray;
 border-bottom:2px solid gray;
 width:50px;
-padding-top:5px;
+padding:2px;
 font-family:georgia;
 font-weight:bold;
 font-style:italic;
 color:gray;
-font-size:40px;}
+font-size:40px;
+margin-top:30px;}
 
 #site-header h1 a {
 font-family:league gothic;
