@@ -78,11 +78,16 @@ width:960px;
 }
 
 header h1 {display:inline-block;
-text-align:center;}
+text-align:center;
+font-family:league gothic;
+font-size:70px;
+padding:20px;}
 
 
 #site-header h1 a {
-font-family:league gothic-regular;}
+font-family:league gothic;
+font-size:50px;
+}
 
 header {
 text-align:center;
