@@ -4,7 +4,35 @@
   	<title>Design Portfolio of Amanda McIntyre</title>
   	
   <link rel="stylesheet" href="final.css" type="text/css" media="screen" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+  
+
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+
+
+
+
+
 
 
  </head>
@@ -18,18 +46,36 @@
 	</header>
 </div> <!-- end #site-wrapper -->
       
-      <img src='webpics/book2.png' alt="book-1"/>
+     <div class="post" id="new">   
+      <section id="book">
+        <img src='webpics/book2.png' alt="book-1"/>
+      </section>
+        
+      <aside class="sidebar">
+         
         <h2>The Elements of Style</h2>
-          
+        
 
         <h3>Spring 2013</h3>
          <p>This book was designed in an effort to make grammar more exciting for a younger reader. The cover was debosed by hand, and the book itself was assembled using perfect binding and hardcover accordingly. 
          </p> 
           
-       <img src='webpics/book3.png' alt="book-2"/>
-       <img src='webpics/book4.png' alt="book-3"/>
+       
 
-       <img src='webpics/box3.png' alt="box-1"/>
+
+<a class="fancybox" rel="group" href="webpics/book3.png"><img src="webpics/book4.png" alt="book-2" /></a>
+
+
+
+
+    </div>
+
+    <div class="post">    
+      <section id="recipe">
+          <img src='webpics/box3.png' alt="box-1"/>
+     </section>
+
+      <aside class="sidebar">
         <h2>When Life Gives You Lemons</h2>
 
         <h3>Spring 2013</h3>
@@ -39,12 +85,20 @@
         <img src='webpics/box1.png' alt="box-2"/>
         <img src='webpics/box2.png' alt="box-3"/>
         <img src='webpics/box4.png' alt="box-4"/>
+
+        </aside>
+    </div>
   
 
 <footer id='site-footer'>
-	<p>copyright &copy Amanda McIntyre</p>
+	<p>copyright &copy 2013 Amanda McIntyre</p>
 </footer>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
 
   </body>
 </html>
