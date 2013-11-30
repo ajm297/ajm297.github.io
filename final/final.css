@@ -58,49 +58,11 @@ width:100%;
 
 }
 
-#site-header h1 a {
-	text-align:center;
- display:block;  
- width:960px; 
- height:123px;  
-font-family: mission script;
- font-size: 110px;
-  padding-top: 80px;
- }
-
-#top-nav a {text-decoration:none;
-color:#000000;
-padding:10px -5px 15px 4px;
-}
-
-#site-header {
-	position:relative;
-	height:280px;
-	background-color:#EEE8AA;
-	text-decoration:none;
-	
-}
-
-img {width:20%;
-	height:20%;
-padding-left:.5%;
-}
 
 
-
-#top-nav { 
-	padding-top:30px;
-	position:absolute;
-	right:5px;
-	width:300px;
-	font-family:ostrich sans rounded;
-	font-size:20px;
-	text-decoration:none;
-}
 
 footer p {font-family:raleway;
 	padding:30px;
-	float:right;
 font-size:15px; 
 
 }
