@@ -53,21 +53,61 @@ table {
 }
 
 /*-------------------START BELOW------------------------*/
-body {margin:0 auto;
-width:100%;
+
+#site-header h1 a {
+ display:block;  
+ width:100%; 
+ height:auto;  
+ font-family:league gothic;
+ font-size:3.7em;
+ color:white;
+ }
+
+
+body {font-family:league gothic;
+width:100%; }
+
+#site-header {
+	position:relative;
+	height:76px;
+	background-color:black;
+	text-decoration:none;
+	
+}
+
+#site-header h1 {
+	position:absolute;
+	display:block;
+	width:306px;
+	height:100px;
+	
+	left:15px;
+	text-decoration:none;
+}
+#top-nav { 
+	position:absolute;
+	right:15px;
+	width:150px;
+	height:20px;
+	font-size:20px;
+	
+}
+
+#top-nav a {text-decoration:none;
+color:white;
+font-family:league gothic;
+position:relative;
+right:5px;
+top:24px;
 
 }
 
 
-
-
-footer p {font-family:raleway;
-	padding:30px;
-font-size:15px; 
-
+#site-footer {
+	clear:both;
+	height:auto;
+	padding:20px 10px 200px 10px;
 }
-
-
 
 
 
