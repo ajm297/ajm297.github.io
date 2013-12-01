@@ -108,12 +108,16 @@ width:100%;
 .sidebar h2 {clear:both;
 	width:100%;
 	margin-left:2%;
-	font-size:1.3em;
+	font-size:1.4em;
+	font-family:century gothic;
+
 
 }
 
 .sidebar h3 {margin-left:2%;
-	font-size:1.1em;
+	font-size:1em;
+	font-family:century gothic;
+	color:grey;
 }
 
 .sidebar p {margin-left:2%;
