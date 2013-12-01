@@ -55,18 +55,19 @@ table {
 /*-------------------START BELOW------------------------*/
 
 #site-header h1 a {
- display:block;  
- width:1000%; 
- height:auto;  
- font-family:century gothic;
- font-size:2em;
- color:white;
- padding-top:15px;
+ 	display:block;  
+ 	width:1000%; 
+ 	height:auto;  
+ 	font-family:century gothic;
+ 	font-size:2em;
+ 	color:white;
+ 	padding-top:15px;
  }
 
 
 body {font-family:century schoolbook;
-width:100%; }
+width:100%;
+ }
 
 #site-header {
 	position:relative;
@@ -95,17 +96,31 @@ width:100%; }
 }
 
 #top-nav a {text-decoration:none;
-color:white;
-font-family:century schoolbook;
-position:relative;
-right:20px;
-top:24px;
-font-size:15px;
+	color:white;
+	font-family:century schoolbook;
+	position:relative;
+	right:20px;
+	top:24px;
+	font-size:15px;
 }
 
 
-img {}
+.sidebar h2 {clear:both;
+	width:100%;
+	margin-left:2%;
+	font-size:1.3em;
 
+}
+
+.sidebar h3 {margin-left:2%;
+	font-size:1.1em;
+}
+
+.sidebar p {margin-left:2%;
+	font-size:1em;
+	width:19%;
+	padding-top:1%;
+}
 
 #site-footer {
 	clear:both;
