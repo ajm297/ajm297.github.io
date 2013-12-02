@@ -104,9 +104,22 @@ width:100%;
 	font-size:15px;
 }
 
+.project{position:relative;
+height:700px;}
 
-.sidebar h2 {clear:both;
-	width:100%;
+.project .text{position:absolute;
+	background-color:rgba(255,255,255,.75);
+	width:450px;
+	top:200px;
+	padding-bottom:10px;
+	visibility:hidden;
+}
+.thumbwrapper:hover .text {visibility:visible;} 
+
+ .hide img {display:none;}
+
+.text h2 {clear:both;
+	width:450px;
 	margin-left:2%;
 	font-size:1.4em;
 	font-family:century gothic;
@@ -114,19 +127,19 @@ width:100%;
 
 }
 
-.sidebar h3 {margin-left:2%;
+.text h3 {margin-left:2%;
 	font-size:1em;
 	font-family:century gothic;
 	color:grey;
 }
 
-.sidebar p {margin-left:2%;
+.text p {margin-left:2%;
 	font-size:1em;
-	width:19%;
+	width:430px;
 	padding-top:1%;
 }
 
-#site-footer {
+.site-footer {
 	clear:both;
 	height:auto;
 	padding:20px 10px 20px 10px;
