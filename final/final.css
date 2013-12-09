@@ -109,13 +109,7 @@ background-color:black;
 }
 
 
-.about {
-color:white;
-float:right;
-width:307px;
-padding-top:200px;
-padding-right:40px;
-font-family:century schoolbook;} 
+
 
 .about h2 {padding-top:10px;
 	color:grey;
@@ -177,7 +171,13 @@ padding-bottom:10px;}
 	width:100%;
 }
 
-
+.about {
+color:white;
+float:right;
+width:307px;
+padding-top:200px;
+padding-right:40px;
+font-family:century schoolbook;} 
 
 
 
