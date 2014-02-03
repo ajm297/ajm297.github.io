@@ -1,0 +1,178 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1
+	width:960px;
+	margin:0 auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------START BELOW------------------------*/
+
+
+.head {left:190px;
+ width:130px; 
+ height:200px;
+  border-radius:100px 100px 10px 10px;
+   background-color:grey; 
+   position:absolute;}
+
+.smile {
+  position:absolute;
+  top: 60px;
+  left: 185px;
+  width: 120px;
+  height: 50px;
+  border-radius:40%;
+  border:10px solid black;
+  border-top:none;
+}
+
+.eyes { 
+  width:25px;
+  height:25px;
+  background-color:black;
+  position:absolute;
+  left:220px;
+  top:80px;
+  border-radius:50%;
+}
+.eyes:after { 
+  content:"";
+  width:25px;
+  height:25px;
+  background-color:black;
+  position:absolute;
+  left:60px;
+  top:0px;
+  border-radius:50%;
+}
+
+.body { 
+
+	width: 150px;
+	height: 200px;
+	background: grey;
+	position:absolute;
+	left:180px;
+	top:200px;
+
+}
+
+.arm1 {width:40px;
+height:175px;
+background-color:grey;
+position:absolute;
+top:240px;
+left:180px;
+  -webkit-transform: rotate(100deg);
+  -webkit-transform-origin: 50% 0;}
+  
+.arm2 {width:40px;
+height:175px;
+background-color:grey;
+position:absolute;
+top:240px;
+left:300px;
+  -webkit-transform: rotate(-100deg);
+  -webkit-transform-origin: 50% 0;}  
+  
+  
+.leg1 {width:40px;
+height:175px;
+background-color:grey;
+position:absolute;
+top:380px;
+left:190px;
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: 50% 0;}  
+  
+.leg2 {width:40px;
+height:175px;
+background-color:grey;
+position:absolute;
+top:380px;
+left:280px;
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: 50% -100%;}   
+  
+.leg2:hover {width:40px;
+height:175px;
+background-color:grey;
+position:absolute;
+top:380px;
+left:220px;
+  -webkit-transform: rotate(-20deg);
+  -webkit-transform-origin: 50% -100%;} 
+
+.mouth {position:absolute;
+  top: 129px;
+  left: 195px;
+  width: 100px;
+  height: 40px;
+  border-radius:40%;
+  border:10px solid black;
+  border-top:none;
+  background-color:white;
+
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
