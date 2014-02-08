@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Add Styles Here */
+
+
+.handle {width: 450px;
+	height: 100px;
+	background: black;
+	position:relative;
+	top:150px;
+	left:100px;
+	border-radius: 15%;
+
+}
+
+.circle{width: 25px;
+	height: 25px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:relative;
+	top:70px;
+	left:120px;
+}
+
+.blade{width:500px;
+	height:160px;
+	position:relative;
+	top:27px;
+	background-color:grey;
+	left:520px;
+	-webkit-border-radius: 0px 0px 0px 0px / 0px 0px 0px 0px;
+   border-radius:         0%  20%  100%  30%  / 100%   0%   98%  20%;
+
+}
+
+.line {width:340px;
+	height:2px;
+	position:relative;
+	top:-120px;
+	background-color:white;
+	left:160px;
+
+}
+
+.line2 {width:340px;
+	height:2px;
+	position:relative;
+	top:-110px;
+	background-color:white;
+	left:160px;
+
+}
+
+.circle2{width: 15px;
+	height: 15px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:relative;
+	top:-20px;
+	left:530px;
+}
+
+
+
+
+
+
+
+
+
+
