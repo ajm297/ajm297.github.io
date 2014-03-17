@@ -79,10 +79,9 @@ font-size:1.1em;
 }	
 
 
-img {margin: 0 auto;
-	width:35%;
+.project img {margin: 0 auto;
+	max-width:70%;
 	height:auto;
-	float:left;
 	padding:2% 2% 7% 10%; }
 
 
@@ -93,13 +92,12 @@ footer {text-align:center;
 	font-size:.7em;
 }
 
-.project{position:relative;
-height:20%;}
+.project{float:left;
+	position:relative;
+	width:50%;
+}
 
-.text{position:absolute;
-width:20%;
-top:315px;
-padding-left:10%;
+.text{ padding-left:10%;
 font-family:'Sue Ellen Francisco', cursive;}
 
 .text h2 {
