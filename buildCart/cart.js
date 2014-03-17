@@ -1,4 +1,11 @@
-<script>
+$(function() {
+  $(".add").click(function(){
+    alert("YEA");
+
+    $(".cart").append("Added something");
+
+ });
+
   function showItem(name, quantity, price) {
     var item = $("<div class='item'>");
     
@@ -12,4 +19,9 @@
   showItem("Shirt",5,20);
   showItem("Shoes",2,10);
   showItem("Pants",2,40);
-</script>
+
+
+ });
+
+ 
+
