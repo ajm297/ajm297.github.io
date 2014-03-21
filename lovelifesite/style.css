@@ -52,24 +52,28 @@ table {
 
 
 body {background-color:#D6FFEB;
-	color:#4C4C4C; }
+color:#4C4C4C;
+}
+	
 
-header{text-align:center;}
+header{text-align:center;
+}
 
  header h1  {display:inline-block;
- 	text-align:center;
- 	width:90%;
-	font-family:'Unica One', cursive;
-	font-size:7em;
-	padding:5% 3% 0% 3%;
-	}
+ text-align:center;
+ width:90%;
+font-family:'Unica One', cursive;
+font-size:7em;
+padding:5% 3% 0% 3%;
+}
 
 header h2 {text-align:center;
 display:inline-block;
 font-family: 'Sue Ellen Francisco', cursive;
 font-size:2em;
 width:40%;
-padding:.5% 2% 4% 2%;}
+padding:.5% 2% 4% 2%;
+}
 
 header p {width:40%;
 text-align:center;
@@ -80,33 +84,105 @@ font-size:1.1em;
 
 
 .project img {margin: 0 auto;
-	max-width:70%;
-	height:auto;
-	padding:2% 2% 7% 10%; }
+max-width:70%;
+height:auto;
+padding:2% 0% 5% 15%; 
+}
 
 
 footer {text-align:center;
-	bottom:0;
-	padding:75% 1% 1% 26%;
-	width:50%;
-	font-size:.7em;
+bottom:0;
+padding:85% 1% 1% 26%;
+width:47%;
+font-size:.7em;
 }
 
 .project{float:left;
-	position:relative;
-	width:50%;
+position:relative;
+width:50%;
 }
 
-.text{ padding-left:10%;
+.text{ padding:0% 1% 9% 15%;
 font-family:'Sue Ellen Francisco', cursive;}
 
 .text h2 {
-	font-size:2.2em;
+font-size:2.2em;
 }
 
 .text p{font-family:'Unica One', cursive;
-	font-size:1.5em;
+font-size:1.5em;
 }
+
+.detail{margin: 0 auto;
+float:left;
+width:53%;
+}
+
+
+.detail h2 {
+font-family: 'Sue Ellen Francisco', cursive;
+font-size:2em;
+width:600px;
+padding-top:15%;
+padding-left:80%;
+}
+
+.detail img{width:80%;
+	height:auto;
+	float:left;
+	padding:15% 2% 2% 40% ;
+
+}
+
+.detail p{font-family:'Unica One', cursive;
+font-size:1.5em;
+width:500px;
+padding-left:80%;
+}
+
+.detail h3{font-family:courier;
+font-size:.7em;
+width:500px;
+padding-left:80%;
+padding-top:.5%;
+}
+
+#addToCart{position:relative;
+	bottom:2%;
+	left:11.5%;
+	width:13%;
+	float:left;
+	font-family:'Unica One', cursive;
+	font-size:1em;
+	}
+
+
+aside img{width:6%;
+	height:auto;
+	float:right;
+	padding-right:29.5%;
+	padding-top:21%;
+	padding-bottom:1%;
+}
+
+
+#buttonToClick{position:relative;
+	bottom:20%;
+	left:11.5%;
+	width:3%;
+	padding-top:2%;
+	margin-top:17%;
+}
+
+.btn1 {background-color:#990000;
+}
+
+.btn2 {background-color:#FFFFF2;
+}
+
+.btn3 {background-color:#333330;
+}
+
 
 
 
