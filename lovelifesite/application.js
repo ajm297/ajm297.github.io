@@ -6,9 +6,9 @@ $(".overlay").show();
 $(".wrapper").show();
 $("#detail-price").text("$" + sofa.price);
 $("#detail-title").text(sofa.title);
-$("#detail-image").attr("src", sofa.image);
+$("#detail-image").attr("src", sofa.image2);
+$("#detail-main").attr("src", sofa.image1);
 $("#detail-description").text(sofa.description);
-
 }
 
 

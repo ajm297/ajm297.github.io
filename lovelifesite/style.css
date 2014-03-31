@@ -64,7 +64,7 @@ header{text-align:center;
  width:90%;
 font-family:'Unica One', cursive;
 font-size:7em;
-padding:5% 3% 0% 3%;
+padding:3% 3% 0% 3%;
 }
 
 header h2 {text-align:center;
@@ -207,7 +207,15 @@ aside img{width:60px;
   border-radius:10px;
 }
 
+#cart{text-align:right;
+display:inline-block;
+font-family: 'Sue Ellen Francisco', cursive;
+font-size:1.4em;
+width:90%;
+padding-top:1%;
 
+  
+}
 
 
 
