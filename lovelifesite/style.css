@@ -120,7 +120,7 @@ font-size:1.5em;
 }
 
 
-aside{padding-top:30px;
+aside{padding-top:32px;
   width:38%;
   float:left;
   padding-left:8px;
@@ -154,32 +154,37 @@ padding-top:10px;
 	float:left;
 	font-family:'Unica One', cursive;
 	font-size:1em;
+  margin-left:5px;
 	}
 
 
 aside img{width:60px;
 	height:auto;
   display:block;
-  padding-top:15px;
+  padding-top:5px;
 	}
 
 
 #buttonToClick{position:relative;
-    float:left;
+  float:left;
 
-  padding:9px;
 }
 
 .btn1 {background-color:#990000;
   position:relative;
+  padding:8px;
 }
 
 .btn2 {background-color:#FFFFF2;
   position:relative;
+  padding:8px;
+
 }
 
 .btn3 {background-color:#333330;
   position:relative;
+  padding:8px;
+
 }
 
 .overlay {display:none;
