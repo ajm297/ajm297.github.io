@@ -1,5 +1,3 @@
-
-
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -54,17 +52,19 @@ table {
 
 /*-------------------START BELOW------------------------*/
 
-#shots{
-	float:left;
-	height:40px;
+
+
+p {
+	padding-left:5px;
+	font-family:helvetica;
+	font-size:1.2em;
+	color:#4C4C4C;
 }
 
-
-
-
-
-
-
+.bar{margin:5px;
+height:20px;
+background-color:#99E699;
+}
 
 
 

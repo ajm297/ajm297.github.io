@@ -8,9 +8,8 @@
         var likes = $("<div>").text(data.shots[i].likes_count);
         $("#shots").append(likes);
 
-        var image = $("<img>").attr("src",data.shots[i].image_teaser_url);
+        var image = $("<img>").attr("src",data.shots[i].image_url);
         $("#shots").append(image);
       } 
     });
-  
   
