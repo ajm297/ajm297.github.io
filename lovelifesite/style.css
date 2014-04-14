@@ -164,28 +164,11 @@ aside img{width:60px;
   padding-top:5px;
 	}
 
-
-#buttonToClick{position:relative;
-  float:left;
-
+#detail-options{
+  font-family:courier;
+  font-size:.8em;
 }
 
-.btn1 {background-color:#990000;
-  position:relative;
-  padding:8px;
-}
-
-.btn2 {background-color:#FFFFF2;
-  position:relative;
-  padding:8px;
-
-}
-
-.btn3 {background-color:#333330;
-  position:relative;
-  padding:8px;
-
-}
 
 .overlay {display:none;
   position:fixed;

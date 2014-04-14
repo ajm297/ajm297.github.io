@@ -4,6 +4,7 @@
     <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
       <script src='sofas.js'></script>
       <script src='application.js'></script>
+      <script src="https://checkout.stripe.com/checkout.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Unica+One' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<title>Sofa So Good</title>
@@ -121,11 +122,14 @@
 	<img id='detail-image' src='images/detailsofa1.png' alt="sofaDetailOne"/>
 	
 
-<div id='buttonToClick'>
-<button class='btn1'></button>
-<button class='btn2'></button>
-<button class='btn3'></button>
-</div>
+<div id='detail-options'>
+        Quantity: 
+        <select id='detail-quantity'>
+          <option value='1'>1</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+        </select>
+
 <button class='add' id='addToCart'>Add To Cart</button>
 
 
