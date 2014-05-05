@@ -61,15 +61,15 @@ top: 7%;
 left:11%;}
 
 header h1{padding-top:20px;
-margin-left:400px;
+margin-left:320px;
 font-family:'Alfa Slab One', cursive;
-font-size:3em;
+font-size:3.5em;
 text-transform:uppercase;	
 }
 
 img {position:absolute;
 	top:7px;
-	left:960px;
+	left:980px;
 	width:120px;
 }
 
