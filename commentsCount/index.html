@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="http://d3js.org/d3.v3.min.js" charset="UTF-8"></script>
+	
+	<title>Comment Comparison</title>
+</head>
+
+<body>
+<script>
+
+function renderGraph(myData) {
+
+myData= myData.filter(function(d){
+  console.log(d);
+  return d.comments_count < 600 && d.comments_received_count < 800;
+});
+	var svg= d3.select("body").append("svg")
+							  .attr("width",1200)
+							  .attr("height",600);
+
+var xScale= d3.scale.linear(),
+    yScale= d3.scale.linear();
+
+var maxComments = d3.max(myData, function(d) {return d.comments_count});
+var maxCommentsReceived = d3.max(myData, function(d) {return d.comments_received_count});
+
+    xScale.range([ 50 , 1100 ])
+          .domain([0 , maxComments ]);
+
+    yScale.range([ 550 , 50 ])
+          .domain([0 , maxCommentsReceived ]);
+
+	svg.selectAll("circle")
+	   .data(myData)
+	   .enter()
+	    .append("circle")
+        .attr("r",4)
+        .attr("cx", function(d){return xScale(d.comments_count); })
+        .attr("cy", function(d) {return yScale(d.comments_received_count)} );
+
+    var xAxis = d3.svg.axis()
+                  .orient("bottom")
+                  .scale(xScale);
+
+                  svg.append("g")
+                     .attr("transform", "translate(0,560)")
+                      .call(xAxis);  
+
+
+var yAxis = d3.svg.axis()
+                  .orient("left")
+                  .scale(yScale);
+
+                  svg.append("g")
+                     .attr("class", "axis")
+                     .attr("transform" , "translate(50,16)")
+                      .call(yAxis); 
+
+	//var divs= d3.select("body").selectAll("img");
+
+	//divs.data(myData)
+	//	.enter()
+	//	.append("img")
+	//	.attr("src",function(shot) {return shot.image_teaser_url; });
+};
+</script>
+
+<script src="http://design-trends.herokuapp.com/players.js?limit=50&comments_count&comments_recieved_count&has_images=true&fields=comments_count,comments_received_count,image_teaser_url&callback=renderGraph"></script>	
+
+</body>
+
+
+
+
+</html> 
