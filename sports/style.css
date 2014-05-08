@@ -58,7 +58,8 @@ body{background-color:#E0EBEB;}
 
 svg {position:absolute;
 top: 7%;
-left:11%;}
+left:11%;
+border-bottom:2px solid black;}
 
 header h1{padding-top:20px;
 margin-left:320px;
@@ -67,11 +68,143 @@ font-size:3.5em;
 text-transform:uppercase;	
 }
 
+header h2{position:absolute;
+top:90px;
+left:480px;
+font-family:'Alfa Slab One', cursive;
+font-size:1em;
+
+}
+
 img {position:absolute;
 	top:7px;
 	left:980px;
 	width:120px;
 }
+
+
+.shape{margin-bottom:30px;}
+
+.square1 {left:174px;
+ 	   width:20px; 
+ 	   height:20px; 
+	   background-color:#292D2E;
+	   position:absolute;
+	   top:630px;}
+
+.square2 {left:374px;
+ 	   width:20px; 
+ 	   height:20px; 
+	   background-color:#D04905;
+	   position:absolute;
+	   top:630px;}
+
+
+.square3 {left:574px;
+ 	   width:20px; 
+ 	   height:20px; 
+	   background-color:#044984;
+	   position:absolute;
+	   top:630px;}
+
+.square4 {left:774px;
+ 	   width:20px; 
+ 	   height:20px; 
+	   background-color:#548C07;
+	   position:absolute;
+	   top:630px;}
+
+body h2{font-family:'Alfa Slab One', cursive;}
+
+
+.basketball {left:200px;
+ 	   position:absolute;
+	   top:630px;
+}
+
+
+.football {left:400px;
+ 	   position:absolute;
+	   top:630px;
+}
+
+.hockey {left:600px;
+ 	   position:absolute;
+	   top:630px;
+}
+
+.baseball {left:800px;
+ 	   position:absolute;
+	   top:630px;
+}
+
+.jan{left:180px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.feb{left:275px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.march{left:353px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.april{left:452px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.may{left:543px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.june{left:638px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.july{left:730px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.aug{left:824px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.sept{left:911px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.oct{left:1007px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.nov{left:1097px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+.dec{left:1190px;
+ 	   position:absolute;
+	   top:560px;
+	   font-size:.9em;}
+
+
+
+
+
+
+
+
 
 
 

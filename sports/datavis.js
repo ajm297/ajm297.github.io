@@ -265,6 +265,7 @@ var h = 500;
 var barPadding = 1;
 var barWidth = w / basketballData.length / 5; 
 
+
 //Create SVG element
 var svg = d3.select("#containerDiv")
             .append("svg")
@@ -396,6 +397,19 @@ baseball.selectAll("text")
          .attr("font-family", "sans-serif")
          .attr("font-size", "10px")
          .attr("fill", "white");
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
