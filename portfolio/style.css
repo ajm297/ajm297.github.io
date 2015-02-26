@@ -79,12 +79,18 @@ font-size:2em;
 height:286px;
 float:left;}
 
-.photos img {display:block;
+.photos img {-webkit-filter: grayscale(1);
+	display:block;
 margin-top:300px;
 float:left;
 position:relative;
 left:140px;
 margin-bottom:100px;
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
 }
 
 .about {display:block;
